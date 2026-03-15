@@ -15,3 +15,5 @@ echo "✅ VidConvertX extraído em ~/.config e atalho criado em ~/.local/share/a
 ```python
 sudo apt update && sudo apt install -y ffmpeg python3-pyqt6
 ```
+# Se este script foi útil para você, considere apoiar o projeto com uma doação.
+[doar](https://raw.githubusercontent.com/Henri-OS/VidConvertX/main/cafe.jpg)
