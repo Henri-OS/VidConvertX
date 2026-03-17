@@ -1,20 +1,27 @@
 # VidConvertX
 
-# --- 1. DOWNLOAD E INSTALAÇÃO DO APLICATIVO ---
-# Este bloco baixa o arquivo zip, extrai na pasta .config, remove o zip e cria o atalho no menu.
+# baixar o ApImage
+
 ```python
-cd ~ && \
-wget -O vidconvertx.zip https://github.com/Henri-OS/VidConvertX/raw/refs/heads/main/vidconvertx.zip && \
-unzip -qo vidconvertx.zip -d ~/.config && \
-rm vidconvertx.zip && \
-wget -P ~/.local/share/applications https://raw.githubusercontent.com/Henri-OS/VidConvertX/refs/heads/main/vidconvertx.desktop && \
-echo "✅ VidConvertX extraído em ~/.config e atalho criado em ~/.local/share/applications"
+wget -O vidconvertx.zip https://github.com/Henri-OS/VidConvertX/raw/refs/heads/main/VidConvertX.AppImage
 ```
-# --- 2. INSTALAÇÃO DE DEPENDÊNCIAS ---
+
+# --- INSTALAÇÃO DE DEPENDÊNCIAS ---
 # Este bloco instala o motor de conversão (FFmpeg) e a interface gráfica (PyQt6) via repositório oficial (APT).
+
 ```python
 sudo apt update && sudo apt install -y ffmpeg python3-pyqt6
 ```
+# Abra o terminal na pasta onde está o arquivo e digite estes dois comandos:
+
+``` python
+    chmod +x VidConvertX.AppImage
+```
+
+``` python
+    ./VidConvertX.AppImage
+```
+
 # Se este script foi útil para você, considere apoiar o projeto com uma doação.
 [![Fazer uma doação](https://raw.githubusercontent.com/Henri-OS/VidConvertX/main/cafe.jpg)](https://SEU_LINK_DE_DOACAO_AQUI)
 
