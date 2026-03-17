@@ -3,7 +3,7 @@
 # baixar o ApImage
 
 ```python
-wget -O ~/.AppImage/vidconvertx.AppImage https://github.com/Henri-OS/VidConvertX/raw/refs/heads/main/VidConvertX.AppImage && chmod +x ~/.AppImage/vidconvertx.AppImage
+wget -O VidConvertX.AppImage https://github.com/Henri-OS/VidConvertX/raw/refs/heads/main/VidConvertX.AppImage && chmod +x VidConvertX.AppImage
 ```
 
 # --- INSTALAÇÃO DE DEPENDÊNCIAS ---
