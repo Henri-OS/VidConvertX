@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=VidConvertX
+GenericName=Conversor de Vídeo
+Comment=Conversor de Vídeo Multi-formato (FFmpeg)
+Exec=/home/henrique/.AppImage/vidconvertx.AppImage
+Icon=/home/henrique/.AppImage/vidconvertx.png
+Categories=AudioVideo;Video;AudioVideoEditing;
+Keywords=video;convert;ffmpeg;
+Name[pt_BR]=VidConvertX
